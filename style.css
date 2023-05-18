@@ -1,0 +1,303 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+#wrapper{
+    height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
+    overflow-y: auto;
+    /* background: #1E1E1E; */
+    /* background: #1E1E1E; */
+     background: #020F1F;
+ 
+        
+
+}
+
+.container{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    /* background-size: cover; */
+    /* overflow-x: hidden; */
+    background-image: url(assets/Frame\ 17.png);
+    /* background-size: cover; */
+    background-size: contain;
+    background-position: center;
+    /* background-repeat: no-repeat; */
+    color: #FFFFFF;
+
+}
+
+.top-div {
+    display: flex;
+    justify-content: space-between;
+    color: #FFFFFF;
+    /* position: absolute; */
+    
+
+}
+
+.name{
+    /* font-family:  'Lavishly Yours'; */
+    margin-left: 20px;
+    margin-top: 50px;
+    font-family: 'Lavishly Yours';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 127%;
+/* identical to box height, or 41px */
+
+text-align: centers
+}
+.links{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 50px;
+    width: 740px;
+    margin-top: 50px;
+    
+}
+   a{
+    color: #FFFFFF;
+   }
+.middle-div{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 160px;
+    margin-right: 70px;
+    margin-left: 50px;
+    
+}
+.mid-txt{
+    padding-left: 20px;
+}
+
+.mid-desc{
+    font-family: 'Playfair Display';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 43px;
+
+}
+
+.lower-div{
+    height: 260px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 122px;
+
+}
+
+.lower-desc{
+    font-family: 'Playfair Display';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 27px;
+text-align: center;
+height: 135px;
+width: 810px;
+
+
+}
+
+.lower-hd{
+    font-family: 'Lavishly Yours';
+font-style: normal;
+font-weight: 400;
+font-size: 96px;
+line-height: 127%;
+/* identical to box height, or 122px */
+
+text-align: center;
+}
+.creator{
+    height: 252px;
+    width:100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+     color: #FFFFFF; 
+    /* background: radial-gradient(45.86% 45.07% at 50% 41.02%, rgba(2, 15, 31, 0) 40.61%, #020F1F 100%); */
+    margin-bottom: 100px;
+}
+.creator-txt{
+    font-family: 'Lavishly Yours';
+font-style: normal;
+font-weight: 400;
+font-size: 96px;
+line-height: 127%;
+/* identical to box height, or 122px */
+
+text-align: center;
+}
+.creator-div{
+background-color: rgba(255, 255, 255, 0.29);
+width: 350px;
+height: 1px;
+}
+
+.section-A,.section-B{
+    display: flex;
+    height: 477px;
+     color: #FFFFFF;
+    /* background: rgb(2,0,36); */
+    
+    /* background-image: linear-gradient(to right top, #051937, #002032, #002325, #14241c, #22241c); */
+    /* background: radial-gradient(50% 50% at 50% 50%, rgba(2, 15, 31, 0) 69.49%, #020F1F 100%) */
+    
+
+    
+     /* background: radial-gradient(50.1% 52.31% at 50.1% 47.69%, rgba(2, 15, 31, 0) 58.44%, #020F1F 100%), url(dark-figure-with-long-black-cloak-stands-fire-with-word-death-it.jpg); */
+
+/* Inside auto layout */
+
+/* flex: none;
+order: 1; */
+
+}
+.bottom{
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    
+}
+.bottomF{
+    width: 40%;
+}
+.footer{
+    display: flex;
+    justify-content: space-around;
+    color: #FFFFFF;
+    background: #031831;
+
+    width: 100vw;
+    height: 296px;
+    left: 0px;
+    top: 3939px;
+
+}
+.lhs-div{
+    display: flex;
+}
+.lhs-secA{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    padding-left: 75px;
+    gap: 15px;
+}
+.rhs-secA{
+    padding-left:50px;
+}
+.lhs-secB{
+    width: 40%;
+    padding-left: 60px;
+
+}
+.rhs-secB{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    padding-left: 10px;
+    gap: 15px;
+    padding-right: 50px;
+}
+/* .lhs-secB{
+    padding-left: 20px;
+} */
+.txt{
+   
+font-family: 'Playfair Display';
+font-style: normal;
+font-weight: 400;
+font-size: 28px;
+line-height: 42px;
+}
+
+
+.hdn{
+    font-family: 'Julius Sans One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 52px;
+    
+}
+
+.icon-container{
+    display: flex;
+    gap: 25px;
+}
+
+.fa-brands{
+    /* position: absolute; */
+    left: 8.33%;
+    right: 8.33%;
+    top: 16.14%;
+    bottom: 16.14%;
+    font-size: 34px;
+}
+
+.nd-help{
+    width: 186px;
+height: 38px;
+
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 500;
+font-size: 32px;
+line-height: 38px;
+}
+.footer-txt{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.bottomRst{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 300;
+font-size: 24px;
+line-height: 29px;
+}
+.dark{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 32px;
+line-height: 39px;
+
+}
+
+
+/* .dark {
+    padding: 0.1em;
+    color: black;
+    background: 
+      radial-gradient(circle, rgba(212,2,249,1) 28%, rgba(250,251,61,1) 53%, rgba(0,212,255,1) 100%)
+      var(--c,0%)/200% 100%,
+      radial-gradient(circle, rgba(212,2,249,1) 28%, rgba(250,251,61,1) 53%, rgba(0,212,255,1) 100%)
+      0% 100%/var(--c,0%) 0.1em no-repeat;
+    -webkit-background-clip: text, padding-box;
+            background-clip: text, padding-box;
+    transition: .5s;
+  }
+  .dark:hover {
+    color: #0000;
+    --c:100%;
+  } */
+
+  
